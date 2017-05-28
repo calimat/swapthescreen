@@ -17,6 +17,9 @@ class MusicListVC: UIViewController {
     }
 
   
+    @IBAction func backButtonPresed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
